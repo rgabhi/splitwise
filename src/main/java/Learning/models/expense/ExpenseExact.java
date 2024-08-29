@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ExpenseExact extends Expense{
 
-    ExpenseExact(double amount, User paidBy, List<Split> splits, ExpenseMetaData expenseMetaData){
+    public ExpenseExact(double amount, User paidBy, List<Split> splits, ExpenseMetaData expenseMetaData){
         super(amount, paidBy, splits, expenseMetaData);
     }
 

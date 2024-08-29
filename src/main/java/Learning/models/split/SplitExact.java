@@ -4,7 +4,7 @@ import Learning.models.User;
 
 public class SplitExact extends Split{
 
-    SplitExact(User user, Integer amount){
+    public SplitExact(User user, Double amount){
         super(user);
         this.amount = amount;
     }

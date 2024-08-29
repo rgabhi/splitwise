@@ -4,7 +4,7 @@ import Learning.models.User;
 
 public class SplitPercent extends Split{
     private double percent;
-    SplitPercent(User user, double percent){
+    public SplitPercent(User user, double percent){
         super(user);
         this.percent = percent;
     }
